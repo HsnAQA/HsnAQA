@@ -1,5 +1,5 @@
 // Builds the two animated SVGs for the GitHub profile README:
-//   matrix.svg  digital rain behind an ASCII name and slow typing lines
+//   header.svg  digital rain behind an ASCII name and slow typing lines
 //   fetch.svg   a neofetch-style ASCII card with a candle (Wick) logo
 // Both have transparent backgrounds and use only system monospace fonts,
 // because GitHub serves README images through a proxy without web fonts.
@@ -202,6 +202,6 @@ ${rows}
 `
 }
 
-fs.writeFileSync(path.join(out, 'matrix.svg'), matrix())
+fs.writeFileSync(path.join(out, 'header.svg'), matrix())
 fs.writeFileSync(path.join(out, 'fetch.svg'), fetchCard())
 console.log('written to', out)
