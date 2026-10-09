@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img width="100%" src="assets/header.svg" alt="Hassan Asiri. Data analytics. Machine learning. Web apps. Now shipping: Wick." />
+<img width="100%" src="assets/banner.svg" alt="Hassan Asiri. Data analytics. Machine learning. Web apps. Python. TypeScript. SQL." />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hassan-aq-asiri/)
 [![X](https://img.shields.io/badge/@ihAQA__-11111b?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ihAQA_)
@@ -105,6 +105,6 @@
 
 ### Currently
 
-- 🕯️ Polishing Wick.
+- 📚 Going deeper into machine learning with Python.
 
 <p align="center"><img width="100%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" /></p>

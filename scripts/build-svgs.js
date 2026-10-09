@@ -1,5 +1,5 @@
 // Builds the two animated SVGs for the GitHub profile README:
-//   header.svg  digital rain behind an ASCII name and slow typing lines
+//   banner.svg  digital rain behind an ASCII name and slow typing lines
 //   candle.svg  an ASCII candle (Wick) with a flickering flame
 // Both have transparent backgrounds and use only system monospace fonts,
 // because GitHub serves README images through a proxy without web fonts.
@@ -61,7 +61,7 @@ function matrix() {
 
   const lines = [
     { text: '> Data analytics. Machine learning. Web apps.', begin: 1.8, y: 236 },
-    { text: '> Now shipping: Wick.', begin: 7.6, y: 266 }
+    { text: '> Python. TypeScript. SQL.', begin: 7.6, y: 266 }
   ]
   const tCharW = 10.2
   const longest = Math.max(...lines.map(l => l.text.length))
@@ -84,7 +84,7 @@ function matrix() {
     </rect>`
   })
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Hassan Asiri. Data analytics. Machine learning. Web apps. Now shipping: Wick.">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Hassan Asiri. Data analytics. Machine learning. Web apps. Python. TypeScript. SQL.">
 <title>Hassan Asiri</title>
 <style>
   .rain text { font: 14px ${MONO}; }
@@ -173,6 +173,6 @@ ${body}
 </svg>
 `
 }
-fs.writeFileSync(path.join(out, 'header.svg'), matrix())
+fs.writeFileSync(path.join(out, 'banner.svg'), matrix())
 fs.writeFileSync(path.join(out, 'candle.svg'), candle())
 console.log('written to', out)
