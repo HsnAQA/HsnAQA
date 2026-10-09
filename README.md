@@ -1,16 +1,14 @@
 ## Hi, I'm Hassan Asiri 👋
 
-Data analytics and bilingual web apps.
+Data analytics and web apps.
 
 [![X](https://img.shields.io/badge/@ihAQA__-11111b?style=for-the-badge&logo=x&logoColor=cdd6f4)](https://x.com/ihAQA_)
 [![Email](https://img.shields.io/badge/Email-94e2d5?style=for-the-badge&logo=gmail&logoColor=11111b)](mailto:hassan.aq.asiri@gmail.com)
 
 ### About me
 
-- I analyze data with Python, pandas and scikit-learn, and report it in Power BI.
-- I build full-stack web apps with React, Next.js and FastAPI, always in Arabic and English with real right-to-left layouts.
-- I care about privacy, clean interfaces and tools people can use without an account.
-- Based in Saudi Arabia.
+- I analyze data with Python and scikit-learn, and report it in Power BI.
+- I build web apps with React, Next.js and FastAPI.
 
 ### Featured work
 
@@ -18,7 +16,7 @@ Data analytics and bilingual web apps.
   <tr>
     <td width="50%" valign="top">
       <h4>🕯️ <a href="https://wick-burnout.vercel.app">Wick</a> (فتيل)</h4>
-      A private, bilingual burnout self-assessment based on the Maslach Burnout Inventory. Answers never leave the device.
+      A private burnout self-assessment based on the Maslach Burnout Inventory, in Arabic and English. Answers never leave the device.
       <br /><br />
       <img src="https://img.shields.io/badge/Next.js-11111b?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
       <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -52,29 +50,13 @@ Data analytics and bilingual web apps.
 
 ### Tech stack
 
-<table>
-  <tr>
-    <td valign="top"><b>Languages</b><br /><img height="34" src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,powershell&theme=dark" alt="Python, Java, JavaScript, TypeScript, HTML, CSS, PowerShell" /></td>
-    <td valign="top"><b>Frontend</b><br /><img height="34" src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&theme=dark" alt="React, Next.js, Vite, Tailwind CSS" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Backend and databases</b><br /><img height="34" src="https://skillicons.dev/icons?i=nodejs,fastapi,postgres,supabase,sqlite&theme=dark" alt="Node.js, FastAPI, PostgreSQL, Supabase, SQLite" /></td>
-    <td valign="top"><b>Tools and cloud</b><br /><img height="34" src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify,vscode&theme=dark" alt="Git, GitHub, Docker, Vercel, Netlify, VS Code" /></td>
-  </tr>
-  <tr>
-    <td valign="top" colspan="2"><b>Data and machine learning</b><br /><img height="34" src="https://skillicons.dev/icons?i=sklearn,pytorch,qt&theme=dark" alt="scikit-learn, PyTorch, Qt" />
-      <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-      <img src="https://img.shields.io/badge/SciPy-8caae6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
-      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=plotly&logoColor=white" alt="Matplotlib" />
-      <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-      <img src="https://img.shields.io/badge/Power%20BI-f2c811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
-    </td>
-  </tr>
-</table>
+<img height="40" src="https://skillicons.dev/icons?i=python,java,ts,react,nextjs,tailwind,fastapi,postgres,sklearn,git&theme=dark" alt="Python, Java, TypeScript, React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, scikit-learn, Git" />
 
 ### Currently
 
-- 🕯️ Polishing Wick: design, motion and accessibility in Arabic and English.
-- 📈 Going deeper into data analytics and machine learning with Python.
-- 🌐 Building more bilingual tools that work without an account.
+- 🕯️ Polishing Wick.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HsnAQA/HsnAQA/output/snake-dark.svg" />
+  <img width="100%" alt="Contribution graph drawn as an animated snake" src="https://raw.githubusercontent.com/HsnAQA/HsnAQA/output/snake-light.svg" />
+</picture>
