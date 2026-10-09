@@ -80,8 +80,9 @@
 **Data, machine learning and desktop**
 
 <img src="https://skillicons.dev/icons?i=sklearn,pytorch,qt&theme=dark" alt="Data and ML" />
-<br />
+<p>
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/SciPy-8caae6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" /> <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" /> <img src="https://img.shields.io/badge/Jupyter-f37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" /> <img src="https://img.shields.io/badge/Power%20BI-f2c811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+</p>
 
 **Tools and cloud**
 
