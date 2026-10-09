@@ -6,6 +6,7 @@
 I turn raw data into insight and build bilingual (Arabic and English) web apps.
 
 [![X](https://img.shields.io/badge/X-@ihAQA__-000000?style=flat&logo=x&logoColor=white)](https://x.com/ihAQA_)
+[![Email](https://img.shields.io/badge/Email-hassan.aq.asiri%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hassan.aq.asiri@gmail.com)
 ![Profile views](https://komarev.com/ghpvc/?username=HsnAQA&color=2dd4bf&style=flat&label=Profile+views)
 
 </div>
