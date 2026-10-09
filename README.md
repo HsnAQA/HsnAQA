@@ -93,7 +93,7 @@
 </table>
 </details>
 
-### What I'm building
+### Latest project
 
 <table>
   <tr>
