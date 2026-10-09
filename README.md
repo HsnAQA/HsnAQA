@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img width="100%" src="assets/matrix.svg" alt="Hassan Asiri. Data analytics. Machine learning. Web apps. Now shipping: Wick." />
+<img width="100%" src="assets/matrix.svg?v=2" alt="Hassan Asiri. Data analytics. Machine learning. Web apps. Now shipping: Wick." />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hassan-aq-asiri/)
 [![X](https://img.shields.io/badge/@ihAQA__-11111b?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ihAQA_)
