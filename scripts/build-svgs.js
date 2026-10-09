@@ -60,8 +60,8 @@ function matrix() {
     .join('')
 
   const lines = [
-    { text: '> Turning raw data into clear decisions.', begin: 1.8, y: 236 },
-    { text: '> Building focused, fast web apps.', begin: 7.2, y: 266 }
+    { text: '> Data analytics. Machine learning. Web apps.', begin: 1.8, y: 236 },
+    { text: '> Now shipping: Wick.', begin: 7.6, y: 266 }
   ]
   const tCharW = 10.2
   const longest = Math.max(...lines.map(l => l.text.length))
@@ -84,7 +84,7 @@ function matrix() {
     </rect>`
   })
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Hassan Asiri. Turning raw data into clear decisions. Building focused, fast web apps.">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Hassan Asiri. Data analytics. Machine learning. Web apps. Now shipping: Wick.">
 <title>Hassan Asiri</title>
 <style>
   .rain text { font: 14px ${MONO}; }
