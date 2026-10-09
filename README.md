@@ -1,9 +1,6 @@
-<!-- Each widget ships a dark (Catppuccin Mocha) and a light (Catppuccin Latte) version, picked by the viewer's GitHub theme. -->
+<!-- Stats widgets ship a dark (Catppuccin Mocha) and a light (Catppuccin Latte) version, picked by the viewer's GitHub theme. -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:94e2d5,50:89b4fa,100:cba6f7&height=190&section=header&text=Hassan%20Asiri&fontSize=50&fontColor=11111b&fontAlignY=36&desc=Data%20analytics%20%C2%B7%20Bilingual%20web%20apps&descSize=18&descAlignY=58&descColor=1e1e2e&animation=fadeIn" />
-  <img width="100%" alt="Hassan Asiri" src="https://capsule-render.vercel.app/api?type=waving&color=0:179299,50:1e66f5,100:8839ef&height=190&section=header&text=Hassan%20Asiri&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Data%20analytics%20%C2%B7%20Bilingual%20web%20apps&descSize=18&descAlignY=58&descColor=eff1f5&animation=fadeIn" />
-</picture>
+<img width="100%" alt="Hassan Asiri" src="https://capsule-render.vercel.app/api?type=waving&color=0:94e2d5,50:89b4fa,100:cba6f7&height=190&section=header&text=Hassan%20Asiri&fontSize=50&fontColor=11111b&fontAlignY=36&desc=Data%20analytics%20%C2%B7%20Bilingual%20web%20apps&descSize=18&descAlignY=58&descColor=1e1e2e&animation=fadeIn" />
 
 <div align="center">
 
@@ -84,12 +81,7 @@
 
 <img src="https://skillicons.dev/icons?i=sklearn,pytorch,qt&theme=dark" alt="Data and ML" />
 <br />
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/SciPy-8caae6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" />
-<img src="https://img.shields.io/badge/Jupyter-f37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-<img src="https://img.shields.io/badge/Power%20BI-f2c811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/SciPy-8caae6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" /> <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" /> <img src="https://img.shields.io/badge/Jupyter-f37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" /> <img src="https://img.shields.io/badge/Power%20BI-f2c811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
 
 **Tools and cloud**
 
@@ -120,7 +112,4 @@
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:89b4fa,100:94e2d5&height=110&section=footer" />
-  <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:8839ef,50:1e66f5,100:179299&height=110&section=footer" />
-</picture>
+<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:89b4fa,100:94e2d5&height=110&section=footer" />
