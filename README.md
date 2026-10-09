@@ -36,5 +36,5 @@ I turn raw data into insight and build bilingual (Arabic and English) web apps.
   <img src="https://streak-stats.demolab.com?user=HsnAQA&hide_border=true&theme=transparent&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf" alt="Contribution streak" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HsnAQA&hide_border=true&bg_color=00000000&color=8b949e&line=2dd4bf&point=2dd4bf&area=true" alt="Contribution graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HsnAQA&theme=transparent" alt="Contribution summary" />
 </p>
