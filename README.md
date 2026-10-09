@@ -107,4 +107,4 @@
 
 - 🕯️ Polishing Wick.
 
-<img width="100%" src="assets/fetch.svg" alt="hassan@github. Focus: data analytics and web apps. Languages: Python, TypeScript, Java. Data: pandas, scikit-learn, Power BI. Web: React, Next.js, FastAPI." />
+<p align="center"><img width="100%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" /></p>

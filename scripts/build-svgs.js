@@ -1,6 +1,6 @@
 // Builds the two animated SVGs for the GitHub profile README:
 //   header.svg  digital rain behind an ASCII name and slow typing lines
-//   fetch.svg   a neofetch-style ASCII card with a candle (Wick) logo
+//   candle.svg  an ASCII candle (Wick) with a flickering flame
 // Both have transparent backgrounds and use only system monospace fonts,
 // because GitHub serves README images through a proxy without web fonts.
 const fs = require('fs')
@@ -119,11 +119,11 @@ function matrix() {
 `
 }
 
-// ---------- fetch.svg ----------
-function fetchCard() {
+// ---------- candle.svg ----------
+function candle() {
   const W = 900
-  const H = 330
-  const logo = [
+  const H = 300
+  const art = [
     ['        )', 'f'],
     ['       ) \\', 'f'],
     ['      / ) (', 'f'],
@@ -139,69 +139,40 @@ function fetchCard() {
     ["  '-----------'", 'c']
   ]
   const colors = { f: '#f0883e', w: '#d29922', c: '#8b949e' }
-  const charW = 9.6
-  const lx = 40
-  const logoSvg = logo
-    .map(
-      ([t, k], i) =>
-        `<text x="${lx}" y="${46 + i * 18}" fill="${colors[k]}" class="${k === 'f' ? 'flame' : ''}" textLength="${(t.length * charW).toFixed(1)}" lengthAdjust="spacingAndGlyphs" xml:space="preserve">${esc(t)}</text>`
-    )
-    .join('')
-
-  const info = [
-    ['hassan', '@github', 'title'],
-    ['-------------', '', 'rule'],
-    ['Focus', 'Data analytics, web apps'],
-    ['Languages', 'Python, TypeScript, Java'],
-    ['Data', 'pandas, scikit-learn, Power BI'],
-    ['Web', 'React, Next.js, FastAPI'],
-    ['Tools', 'VS Code, Git, Docker'],
-    ['Live', 'Wick, estimate-456'],
-    ['Editor', 'VS Code'],
-    ['Shell', 'PowerShell']
-  ]
-  const ix = 300
-  let rows = ''
-  info.forEach(([k, v, kind], i) => {
-    const y = 46 + i * 21
-    const delay = (0.4 + i * 0.18).toFixed(2)
-    let body
-    if (kind === 'title') {
-      body = `<tspan fill="#3fb950" font-weight="700">${k}</tspan><tspan fill="#8b949e">${v}</tspan>`
-    } else if (kind === 'rule') {
-      body = `<tspan fill="#8b949e">${k}</tspan>`
-    } else {
-      body = `<tspan fill="#3fb950" font-weight="700">${esc(k)}</tspan><tspan fill="#8b949e">: ${esc(v)}</tspan>`
-    }
-    rows += `<text x="${ix}" y="${y}" class="row" style="animation-delay:${delay}s" xml:space="preserve">${body}</text>`
-  })
-  const swatches = ['#484f58', '#f85149', '#3fb950', '#d29922', '#58a6ff', '#bc8cff', '#39c5cf', '#b1bac4']
-  const sy = 46 + info.length * 21 + 6
-  const swDelay = (0.4 + info.length * 0.18).toFixed(2)
-  const sw = swatches
-    .map((c, i) => `<rect x="${ix + i * 30}" y="${sy}" width="28" height="16" fill="${c}"/>`)
-    .join('')
-  const promptY = sy + 44
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Hassan Asiri. Focus: data analytics and web apps. Languages: Python, TypeScript, Java.">
-<title>hassan@github</title>
+  const charW = 11.4
+  const rowH = 20
+  const width = Math.max(...art.map(([t]) => t.length)) * charW
+  const x = (W - width) / 2
+  const top = 30
+  const line = ([t, k], i, cls) =>
+    `<text x="${x}" y="${top + 16 + i * rowH}" fill="${colors[k]}" textLength="${(t.length * charW).toFixed(1)}" lengthAdjust="spacingAndGlyphs" xml:space="preserve"${cls ? ` class="${cls}"` : ''}>${esc(t)}</text>`
+  const flame = art.filter(([, k]) => k === 'f')
+  const body = art.map((row, i) => (row[1] === 'f' ? '' : line(row, i))).join('')
+  const flameRows = flame.map((row, i) => line(row, i)).join('')
+  const glowX = x + 8.5 * charW
+  const glowY = top + 2 * rowH
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="An ASCII candle with a flickering flame">
+<title>Wick</title>
 <style>
-  text { font: 16px ${MONO}; }
-  .row, .swatches, .prompt { opacity: 0; animation: show .35s ease-out forwards; }
-  @keyframes show { to { opacity: 1; } }
-  .flame { transform-box: fill-box; transform-origin: 50% 100%; animation: flicker 2.6s ease-in-out infinite; }
-  @keyframes flicker { 0%,100% { transform: scale(1,1) skewX(0deg); } 30% { transform: scale(.97,1.04) skewX(-3deg); } 60% { transform: scale(1.02,.98) skewX(2deg); } }
-  .cursor { animation: blink 1s steps(1) infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
-  @media (prefers-reduced-motion: reduce) { .flame, .cursor { animation: none; } .row, .swatches, .prompt { opacity: 1; animation: none; } }
+  text { font: 19px ${MONO}; }
+  .flame { transform-box: fill-box; transform-origin: 50% 100%; animation: flicker 2.4s ease-in-out infinite; }
+  .flame.blur { filter: url(#soft); opacity: .7; }
+  @keyframes flicker { 0%,100% { transform: scale(1,1) skewX(0deg); } 25% { transform: scale(.96,1.06) skewX(-4deg); } 55% { transform: scale(1.03,.97) skewX(3deg); } 80% { transform: scale(.98,1.03) skewX(-2deg); } }
+  @media (prefers-reduced-motion: reduce) { .flame { animation: none; } }
 </style>
-${logoSvg}
-${rows}
-<g class="swatches" style="animation-delay:${swDelay}s">${sw}</g>
-<g class="prompt" style="animation-delay:${(Number(swDelay) + 0.3).toFixed(2)}s"><text x="${ix}" y="${promptY}" xml:space="preserve"><tspan fill="#3fb950">hassan@github</tspan><tspan fill="#8b949e">:~$ </tspan></text><rect class="cursor" x="${ix + 18 * charW + 2}" y="${promptY - 14}" width="9" height="18" fill="#3fb950"/></g>
+<defs>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  <radialGradient id="halo"><stop offset="0" stop-color="#f0883e" stop-opacity=".35"/><stop offset="1" stop-color="#f0883e" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="${glowX.toFixed(1)}" cy="${glowY}" rx="90" ry="70" fill="url(#halo)">
+  <animate attributeName="opacity" values=".75;1;.6;.95;.75" dur="2.4s" repeatCount="indefinite"/>
+</ellipse>
+${body}
+<g class="flame blur">${flameRows}</g>
+<g class="flame">${flameRows}</g>
 </svg>
 `
 }
-
 fs.writeFileSync(path.join(out, 'header.svg'), matrix())
-fs.writeFileSync(path.join(out, 'fetch.svg'), fetchCard())
+fs.writeFileSync(path.join(out, 'candle.svg'), candle())
 console.log('written to', out)
