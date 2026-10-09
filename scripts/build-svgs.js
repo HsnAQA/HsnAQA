@@ -1,6 +1,6 @@
 // Builds the two animated SVGs for the GitHub profile README:
 //   rain.svg    digital rain behind an ASCII name and slow typing lines
-//   candle.svg  an ASCII candle (Wick) with a flickering flame
+//   flame.svg   an ASCII candle (Wick) with a flickering flame
 // Both have transparent backgrounds and use only system monospace fonts,
 // because GitHub serves README images through a proxy without web fonts.
 const fs = require('fs')
@@ -121,7 +121,7 @@ function matrix() {
 
 // ---------- candle.svg ----------
 function candle() {
-  const W = 900
+  const W = 320
   const H = 300
   const art = [
     ['        )', 'f'],
@@ -174,5 +174,5 @@ ${body}
 `
 }
 fs.writeFileSync(path.join(out, 'rain.svg'), matrix())
-fs.writeFileSync(path.join(out, 'candle.svg'), candle())
+fs.writeFileSync(path.join(out, 'flame.svg'), candle())
 console.log('written to', out)

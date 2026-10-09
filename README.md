@@ -98,7 +98,7 @@
 <table>
   <tr>
     <td width="42%" align="center" valign="middle">
-      <img width="100%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" />
+      <img width="100%" src="assets/flame.svg" alt="An ASCII candle with a flickering flame" />
     </td>
     <td valign="top">
       <h3>🕯️ Wick (فتيل)</h3>
@@ -115,7 +115,7 @@
       <img src="https://img.shields.io/badge/Tailwind-0ea5e9?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
       <img src="https://img.shields.io/badge/Vitest-6e9f18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
       <br /><br />
-      <a href="https://wick-burnout.vercel.app"><img src="https://img.shields.io/badge/Try_Wick-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Try Wick" /></a>
+      <a href="https://wick-burnout.vercel.app"><img src="https://img.shields.io/badge/Open_live-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Wick" /></a>
     </td>
   </tr>
 </table>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="300" viewBox="0 0 320 300" role="img" aria-label="An ASCII candle with a flickering flame">
+<title>Wick</title>
+<style>
+  text { font: 19px 'Cascadia Mono','Consolas','DejaVu Sans Mono','Menlo','Courier New',monospace; }
+  .flame { transform-box: fill-box; transform-origin: 50% 100%; animation: flicker 2.4s ease-in-out infinite; }
+  .flame.blur { filter: url(#soft); opacity: .7; }
+  @keyframes flicker { 0%,100% { transform: scale(1,1) skewX(0deg); } 25% { transform: scale(.96,1.06) skewX(-4deg); } 55% { transform: scale(1.03,.97) skewX(3deg); } 80% { transform: scale(.98,1.03) skewX(-2deg); } }
+  @media (prefers-reduced-motion: reduce) { .flame { animation: none; } }
+</style>
+<defs>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  <radialGradient id="halo"><stop offset="0" stop-color="#f0883e" stop-opacity=".35"/><stop offset="1" stop-color="#f0883e" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="171.4" cy="70" rx="90" ry="70" fill="url(#halo)">
+  <animate attributeName="opacity" values=".75;1;.6;.95;.75" dur="2.4s" repeatCount="indefinite"/>
+</ellipse>
+<text x="74.5" y="126" fill="#d29922" textLength="114.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       |=|</text><text x="74.5" y="146" fill="#8b949e" textLength="136.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .-----.</text><text x="74.5" y="166" fill="#8b949e" textLength="136.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     |     |</text><text x="74.5" y="186" fill="#8b949e" textLength="136.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     |     |</text><text x="74.5" y="206" fill="#8b949e" textLength="136.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     |     |</text><text x="74.5" y="226" fill="#8b949e" textLength="136.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     |     |</text><text x="74.5" y="246" fill="#8b949e" textLength="136.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     |     |</text><text x="74.5" y="266" fill="#8b949e" textLength="159.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   __|_____|__</text><text x="74.5" y="286" fill="#8b949e" textLength="171.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  '-----------'</text>
+<g class="flame blur"><text x="74.5" y="46" fill="#f0883e" textLength="102.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        )</text><text x="74.5" y="66" fill="#f0883e" textLength="114.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       ) \</text><text x="74.5" y="86" fill="#f0883e" textLength="125.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      / ) (</text><text x="74.5" y="106" fill="#f0883e" textLength="125.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      \(_)/</text></g>
+<g class="flame"><text x="74.5" y="46" fill="#f0883e" textLength="102.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        )</text><text x="74.5" y="66" fill="#f0883e" textLength="114.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       ) \</text><text x="74.5" y="86" fill="#f0883e" textLength="125.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      / ) (</text><text x="74.5" y="106" fill="#f0883e" textLength="125.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      \(_)/</text></g>
+</svg>
