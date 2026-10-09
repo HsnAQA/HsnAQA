@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img width="100%" src="assets/banner.svg" alt="Hassan Asiri. Data analytics. Machine learning. Web apps. Python. TypeScript. SQL." />
+<img width="100%" src="assets/rain.svg" alt="Hassan Asiri. Wake up, Hassan... Follow the white rabbit." />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hassan-aq-asiri/)
 [![X](https://img.shields.io/badge/@ihAQA__-11111b?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ihAQA_)
@@ -103,8 +103,7 @@
 </table>
 </details>
 
-### Currently
+### What I'm building
 
-- 📚 Going deeper into machine learning with Python.
-
-<p align="center"><img width="100%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" /></p>
+<p align="center"><img width="70%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" /></p>
+<p align="center"><a href="https://wick-burnout.vercel.app"><b>Wick (فتيل)</b></a></p>
