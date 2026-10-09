@@ -19,17 +19,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4>🕯️ Wick (فتيل)</h4>
-      A private burnout self-assessment based on the Maslach Burnout Inventory. Answers never leave the device.
-      <br /><br />
-      <img src="https://img.shields.io/badge/Next.js-11111b?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Tailwind-0ea5e9?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-      <br /><br />
-      <a href="https://wick-burnout.vercel.app"><img src="https://img.shields.io/badge/Open_live-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Wick" /></a>
-    </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h4>🔐 Beyond the Password</h4>
       A cybersecurity awareness site with a password-habits survey, a public results dashboard and admin reports.
       <br /><br />
@@ -39,7 +29,7 @@
       <br /><br />
       <a href="https://survey-425.vercel.app"><img src="https://img.shields.io/badge/Open_live-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Beyond the Password" /></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h4>📐 <a href="https://github.com/HsnAQA/estimate-456">estimate-456</a></h4>
       Software project estimation with SLOC, Function Points, COCOMO and Delphi, with worked solutions.
       <br /><br />
@@ -105,5 +95,27 @@
 
 ### What I'm building
 
-<p align="center"><img width="70%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" /></p>
-<p align="center"><a href="https://wick-burnout.vercel.app"><b>Wick (فتيل)</b></a></p>
+<table>
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <img width="100%" src="assets/candle.svg" alt="An ASCII candle with a flickering flame" />
+    </td>
+    <td valign="top">
+      <h3>🕯️ Wick (فتيل)</h3>
+      A private burnout self-assessment based on the Maslach Burnout Inventory: 22 statements, three dimensions, and results that never leave the device.
+      <br /><br />
+      <b>Latest work</b>
+      <ul>
+        <li>New logo, themes and redesigned screens</li>
+        <li>A home page that fits on one screen, with smooth motion</li>
+        <li>Instant switching between Arabic and English</li>
+      </ul>
+      <img src="https://img.shields.io/badge/Next.js-11111b?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Tailwind-0ea5e9?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+      <img src="https://img.shields.io/badge/Vitest-6e9f18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
+      <br /><br />
+      <a href="https://wick-burnout.vercel.app"><img src="https://img.shields.io/badge/Try_Wick-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Try Wick" /></a>
+    </td>
+  </tr>
+</table>
