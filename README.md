@@ -1,29 +1,16 @@
-<!-- Stats widgets ship a dark (Catppuccin Mocha) and a light (Catppuccin Latte) version, picked by the viewer's GitHub theme. -->
+## Hi, I'm Hassan Asiri 👋
 
-<img width="100%" alt="Hassan Asiri" src="https://capsule-render.vercel.app/api?type=waving&color=0:94e2d5,50:89b4fa,100:cba6f7&height=190&section=header&text=Hassan%20Asiri&fontSize=50&fontColor=11111b&fontAlignY=36&desc=Data%20analytics%20%C2%B7%20Bilingual%20web%20apps&descSize=18&descAlignY=58&descColor=1e1e2e&animation=fadeIn" />
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=94E2D5&center=true&vCenter=true&width=640&lines=I+turn+raw+data+into+insight;I+build+Arabic+and+English+web+apps;Python+%C2%B7+TypeScript+%C2%B7+Java" />
-  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=179299&center=true&vCenter=true&width=640&lines=I+turn+raw+data+into+insight;I+build+Arabic+and+English+web+apps;Python+%C2%B7+TypeScript+%C2%B7+Java" />
-</picture>
-
-<br />
+Data analytics and bilingual web apps.
 
 [![X](https://img.shields.io/badge/@ihAQA__-11111b?style=for-the-badge&logo=x&logoColor=cdd6f4)](https://x.com/ihAQA_)
 [![Email](https://img.shields.io/badge/Email-94e2d5?style=for-the-badge&logo=gmail&logoColor=11111b)](mailto:hassan.aq.asiri@gmail.com)
-[![Wick](https://img.shields.io/badge/Live-Wick-89b4fa?style=for-the-badge&logo=vercel&logoColor=11111b)](https://wick-burnout.vercel.app)
-![Profile views](https://komarev.com/ghpvc/?username=HsnAQA&color=cba6f7&style=for-the-badge&label=views)
-
-</div>
 
 ### About me
 
 - I analyze data with Python, pandas and scikit-learn, and report it in Power BI.
 - I build full-stack web apps with React, Next.js and FastAPI, always in Arabic and English with real right-to-left layouts.
 - I care about privacy, clean interfaces and tools people can use without an account.
-- Based in Saudi Arabia 🇸🇦
+- Based in Saudi Arabia.
 
 ### Featured work
 
@@ -65,52 +52,29 @@
 
 ### Tech stack
 
-**Languages**
+<table>
+  <tr>
+    <td valign="top"><b>Languages</b><br /><img height="34" src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,powershell&theme=dark" alt="Python, Java, JavaScript, TypeScript, HTML, CSS, PowerShell" /></td>
+    <td valign="top"><b>Frontend</b><br /><img height="34" src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&theme=dark" alt="React, Next.js, Vite, Tailwind CSS" /></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Backend and databases</b><br /><img height="34" src="https://skillicons.dev/icons?i=nodejs,fastapi,postgres,supabase,sqlite&theme=dark" alt="Node.js, FastAPI, PostgreSQL, Supabase, SQLite" /></td>
+    <td valign="top"><b>Tools and cloud</b><br /><img height="34" src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify,vscode&theme=dark" alt="Git, GitHub, Docker, Vercel, Netlify, VS Code" /></td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2"><b>Data and machine learning</b><br /><img height="34" src="https://skillicons.dev/icons?i=sklearn,pytorch,qt&theme=dark" alt="scikit-learn, PyTorch, Qt" />
+      <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+      <img src="https://img.shields.io/badge/SciPy-8caae6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
+      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=plotly&logoColor=white" alt="Matplotlib" />
+      <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+      <img src="https://img.shields.io/badge/Power%20BI-f2c811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
+    </td>
+  </tr>
+</table>
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,powershell&theme=dark" alt="Languages" />
+### Currently
 
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&theme=dark" alt="Frontend" />
-
-**Backend and databases**
-
-<img src="https://skillicons.dev/icons?i=nodejs,fastapi,postgres,supabase,sqlite&theme=dark" alt="Backend and databases" />
-
-**Data, machine learning and desktop**
-
-<img src="https://skillicons.dev/icons?i=sklearn,pytorch,qt&theme=dark" alt="Data and ML" />
-<p>
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/SciPy-8caae6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" /> <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib" /> <img src="https://img.shields.io/badge/Jupyter-f37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" /> <img src="https://img.shields.io/badge/Power%20BI-f2c811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-</p>
-
-**Tools and cloud**
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify,vscode&theme=dark" alt="Tools and cloud" />
-
-### GitHub at a glance
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=HsnAQA&show_icons=true&hide_border=true&count_private=true&theme=catppuccin_mocha&title_color=94e2d5&icon_color=94e2d5&ring_color=94e2d5" />
-  <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=HsnAQA&show_icons=true&hide_border=true&count_private=true&theme=catppuccin_latte&title_color=179299&icon_color=179299&ring_color=179299" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=HsnAQA&layout=compact&hide_border=true&langs_count=8&theme=catppuccin_mocha&title_color=94e2d5" />
-  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HsnAQA&layout=compact&hide_border=true&langs_count=8&theme=catppuccin_latte&title_color=179299" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=HsnAQA&hide_border=true&theme=catppuccin-mocha&ring=94E2D5&fire=94E2D5&currStreakLabel=94E2D5" />
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=HsnAQA&hide_border=true&theme=catppuccin-latte&ring=179299&fire=179299&currStreakLabel=179299" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HsnAQA&theme=github_dark" />
-  <img alt="Contribution summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HsnAQA&theme=github" />
-</picture>
-
-</div>
-
-<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:89b4fa,100:94e2d5&height=110&section=footer" />
+- 🕯️ Polishing Wick: design, motion and accessibility in Arabic and English.
+- 📈 Going deeper into data analytics and machine learning with Python.
+- 🌐 Building more bilingual tools that work without an account.
